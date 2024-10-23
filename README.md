@@ -45,12 +45,20 @@ Installation of this project is pretty easy. Please do follow the following step
     pip install -r requirements.txt
 ```
 
-### Step-5: Run the application:
+### Step 5: Install the pytorch from the link
+```bash
+    https://pytorch.org/get-started/locally/
+```
+```bash
+    pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+```
+
+### Step-6: Run the application:
 ```bash
     python clientApp.py
 ```
 
-### Step-6: Prediction application:
+### Step-7: Prediction application:
 ```bash
     http://localhost:7000/
 ```
